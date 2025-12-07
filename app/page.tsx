@@ -143,7 +143,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            REGISTERED & FAKE DOCUMENTS
+            Your #1 Source for Real & Fake Documents — Fast, Secure, and
+            Discreet
           </motion.p>
 
           {/* Main Headline */}
@@ -192,8 +193,10 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
-              Professional document services tailored to your needs. Quality,
-              reliability, and excellence in every document we produce.
+              We produce real database-registered documents and premium replica
+              versions depending on your needs. No interviews, no long
+              processes, just reliable documents delivered quickly and
+              confidentially.
             </p>
           </motion.div>
           <motion.div
@@ -233,26 +236,25 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Passports
+                      Buy Passport
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Quality database documents passport. We are the best
-                      producer of quality documents.
+                      Order premium, database-registered passports produced with
+                      advanced printing technology.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Passports
+                      Buy Passport
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Quality database documents passport. We are the best
-                      producer of quality documents.
-                    </p>
-                    <p className="text-base text-white/90 text-center mb-6">
-                      Clear requirements, compliant forms, and timeline guidance
-                      for official issuance. Learn how to obtain passports,
-                      schedule appointments, and understand all requirements.
+                      Order premium, database-registered passports produced with
+                      advanced printing technology. Our team delivers discreet,
+                      fast, and high-quality documents that pass all standard
+                      security checks. Whether you need a new identity or a
+                      replacement, we provide hassle-free processing with
+                      worldwide delivery
                     </p>
                     <Button
                       variant="outline"
@@ -299,27 +301,26 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Driver&apos;s Licenses
+                      Buy Driver&apos;s License
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Professional driver&apos;s license services. Get guidance
-                      on obtaining, renewing, or replacing your license.
+                      Get authentic-looking driver&qpos;s licenses that scan,
+                      swipe, and verify.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Driver&apos;s Licenses
+                      Buy Driver&apos;s License
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Professional driver&apos;s license services. Get guidance
-                      on obtaining, renewing, or replacing your license.
+                      Get authentic-looking driver’s licenses that scan, swipe,
+                      and verify. Our licenses come with holograms, barcodes,
+                      and UV features identical to the real thing. We work with
+                      all regions and states, ensuring your document meets
+                      official standards.
                     </p>
-                    <p className="text-base text-white/90 text-center mb-6">
-                      Eligibility requirements, testing schedules, and renewal
-                      support with local authorities. We provide comprehensive
-                      assistance for all your driving license needs.
-                    </p>
+
                     <Button
                       variant="outline"
                       size="lg"
@@ -365,27 +366,26 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      ID Cards
+                      Buy ID Cards
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Identity verification and documentation services. Get help
-                      with national and state ID card applications.
+                      Order high-quality ID cards with full security elements,
+                      magnetic stripes, signatures, and custom details.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      ID Cards
+                      Buy ID Cards
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Identity verification and documentation services. Get help
-                      with national and state ID card applications.
+                      Order high-quality ID cards with full security elements,
+                      magnetic stripes, signatures, and custom details. We
+                      guarantee unmatched precision, fast turnaround times, and
+                      24/7 support. Your privacy and anonymity are fully
+                      protected.
                     </p>
-                    <p className="text-base text-white/90 text-center mb-6">
-                      Identity verification steps, documentation checklists, and
-                      replacement pathways. We assist with all your ID card
-                      needs from application to renewal.
-                    </p>
+
                     <Button
                       variant="outline"
                       size="lg"
@@ -399,73 +399,140 @@ export default function Home() {
             </motion.div>
           </motion.div>
           {/* Residence Permit Card - Below the main 3 */}
-          <motion.div variants={fadeInUp} className="mt-6">
-            <Link href="/services/residence-permit">
-              <div className="relative h-[300px] rounded-xl overflow-hidden cursor-pointer group">
-                {/* Background Image */}
-                <Image
-                  src="https://images.pexels.com/photos/4922080/pexels-photo-4922080.jpeg"
-                  alt="Residence Permits"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  unoptimized
-                />
-                {/* Icon Overlay */}
-                <div className="absolute top-6 left-6 z-10">
-                  <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm">
-                    <svg
-                      className="w-8 h-8 text-teal-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+          <div className="grid gap-6 lg:grid-cols-2">
+            <motion.div variants={fadeInUp} className="mt-6">
+              <Link href="/services/residence-permit">
+                <div className="relative h-[300px] rounded-xl overflow-hidden cursor-pointer group">
+                  {/* Background Image */}
+                  <Image
+                    src="https://images.pexels.com/photos/4922080/pexels-photo-4922080.jpeg"
+                    alt="Residence Permits"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    unoptimized
+                  />
+                  {/* Icon Overlay */}
+                  <div className="absolute top-6 left-6 z-10">
+                    <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm">
+                      <svg
+                        className="w-8 h-8 text-teal-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  {/* Content Overlay - Always Visible */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                    <h3 className="text-2xl font-semibold text-white mb-2">
+                      Buy Residence Permit
+                    </h3>
+                    <p className="text-white/90 text-sm">
+                      Apply for high-quality Resident Cards with full security
+                      features and database registration.
+                    </p>
+                  </div>
+                  {/* Hover Overlay - Teal600 with additional text */}
+                  <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
+                    <h3 className="text-3xl font-semibold mb-4 text-center">
+                      Buy Residence Permit
+                    </h3>
+                    <p className="text-lg mb-4 text-center">
+                      “Apply for high-quality Resident Cards with full security
+                      features and database registration. We process cards for
+                      multiple countries with biometric details, signature
+                      panels, and machine-readable zones. No interviews, no long
+                      waiting periods — your card is created and delivered
+                      discreetly with guaranteed authenticity.”
+                    </p>
+
+                    <Button
+                      variant="outline"
+                      size="lg"
+                      className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
+                      Learn More
+                    </Button>
                   </div>
                 </div>
-                {/* Content Overlay - Always Visible */}
-                <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
-                  <h3 className="text-2xl font-semibold text-white mb-2">
-                    Residence Permits
-                  </h3>
-                  <p className="text-white/90 text-sm">
-                    Residency categories, supporting evidence, and processing
-                    milestones. Guidance for temporary, permanent, study, and
-                    work-related permits.
-                  </p>
+              </Link>
+            </motion.div>
+            <motion.div variants={fadeInUp} className="mt-6">
+              <Link href="/services/residence-permit">
+                <div className="relative h-[300px] rounded-xl overflow-hidden cursor-pointer group">
+                  {/* Background Image */}
+                  <Image
+                    src="https://australiandocuments.com/wp-content/uploads/2023/01/fd2ec93cfbdef5325da4c19344171d78-768x1024.jpeg"
+                    alt="Clear Australian Driving License"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    unoptimized
+                  />
+                  {/* Icon Overlay */}
+                  <div className="absolute top-6 left-6 z-10">
+                    <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm">
+                      <svg
+                        className="w-8 h-8 text-teal-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  {/* Content Overlay - Always Visible */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                    <h3 className="text-2xl font-semibold text-white mb-2">
+                      Buy Clear Australian Driving Record
+                    </h3>
+                    <p className="text-white/90 text-sm">
+                      “Need a clean Australian driving record? We offer fast and
+                      confidential record adjustment services. Traffic points,
+                      suspensions, fines, and previous violations can be removed
+                      from your file through our secure partner network. Your
+                      new record will appear clean in all standard checks and
+                      verifications.”
+                    </p>
+                  </div>
+                  {/* Hover Overlay - Teal600 with additional text */}
+                  <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
+                    <h3 className="text-3xl font-semibold mb-4 text-center">
+                      Buy Clear Australian Driving Record
+                    </h3>
+                    <p className="text-lg mb-4 text-center">
+                      “Need a clean Australian driving record? We offer fast and
+                      confidential record adjustment services. Traffic points,
+                      suspensions, fines, and previous violations can be removed
+                      from your file through our secure partner network. Your
+                      new record will appear clean in all standard checks and
+                      verifications.”
+                    </p>
+
+                    <Button
+                      variant="outline"
+                      size="lg"
+                      className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
+                    >
+                      Learn More
+                    </Button>
+                  </div>
                 </div>
-                {/* Hover Overlay - Teal600 with additional text */}
-                <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
-                  <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Residence Permits
-                  </h3>
-                  <p className="text-lg mb-4 text-center">
-                    Residency categories, supporting evidence, and processing
-                    milestones. Guidance for temporary, permanent, study, and
-                    work-related permits.
-                  </p>
-                  <p className="text-base text-white/90 text-center mb-6">
-                    We provide comprehensive support for residence permits
-                    across multiple countries including UK, EU, and other
-                    international destinations. Get expert guidance on all
-                    permit types.
-                  </p>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
-                  >
-                    Learn More
-                  </Button>
-                </div>
-              </div>
-            </Link>
-          </motion.div>
+              </Link>
+            </motion.div>
+          </div>
           <motion.div
             variants={staggerContainer}
             className="mt-10 grid gap-6 lg:grid-cols-2"
@@ -478,14 +545,20 @@ export default function Home() {
                 <CardContent>
                   <p>
                     Preparation timelines typically range from 1–3 days, with
-                    delivery windows varying by document type and jurisdiction.
-                    We provide realistic scheduling, status updates, and
-                    guidance to keep your application on track.
+                    Our processing timelines are fast, discreet, and tailored to
+                    your region. Most documents are prepared within 1–3 days,
+                    with delivery times depending on the destination and
+                    document category. We provide clear updates at every stage
+                    to keep your order fully on track.
                   </p>
                   <ul className="mt-4 list-disc space-y-2 pl-6">
-                    <li>Document checklists tailored to your location</li>
-                    <li>Submission calendars aligned to official processing</li>
-                    <li>Milestone tracking and reminders</li>
+                    <li>
+                      Customized document requirements based on your country
+                    </li>
+                    <li>Submission schedules aligned to official processing</li>
+                    <li>
+                      Real-time progress updates and delivery notifications
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -497,14 +570,15 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p>
-                    Your information is handled with care. We emphasize secure
-                    data practices and privacy-first support, ensuring your
-                    details are used only to provide guidance and assistance.
+                    Your privacy is our top priority. All orders are handled
+                    using secure communication channels, encrypted workflows,
+                    and strict confidentiality protocols. We only request the
+                    minimum information required to process your file.
                   </p>
                   <ul className="mt-4 list-disc space-y-2 pl-6">
-                    <li>Minimal data collection</li>
-                    <li>Confidential communication channels</li>
-                    <li>Privacy-conscious packaging and delivery updates</li>
+                    <li>No unnecessary data collection</li>
+                    <li>Encrypted chats and private contact methods</li>
+                    <li>Discreet packaging and secure delivery handling</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -532,11 +606,13 @@ export default function Home() {
                   </h3>
                 </div>
                 <p className="text-xl text-zinc-700 leading-relaxed">
-                  We&apos;re in this business since{' '}
-                  <span className="font-semibold text-teal-600">1995</span> and
-                  provide the best services. With over three decades of
-                  experience, we&apos;ve built a reputation for excellence,
-                  reliability, and professionalism in document services.
+                  Since 2013, we’ve specialized in delivering high-quality
+                  documents with unmatched precision and reliability. Over
+                  decades of experience has made us a trusted provider in the
+                  document industry, offering fast, accurate, and professional
+                  solutions for clients worldwide. • Travel Documents • Travel
+                  Authorization • Driving Records • Documents for Verification
+                  (KYC, VideoIdentification etc..)
                 </p>
                 <div className="space-y-4 pt-4">
                   <motion.div
@@ -862,7 +938,6 @@ export default function Home() {
           </motion.h2>
           <ul className="mt-4 space-y-2 text-zinc-900">
             <li>Proven reliability with clear, accurate guidance.</li>
-            <li>Professional standards focused on lawful compliance.</li>
             <li>Secure and confidential handling of your information.</li>
             <li>Responsive 24/7 support to keep you on track.</li>
           </ul>
@@ -910,8 +985,10 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Tell us what you need and where you’re applying. We outline
-                  requirements.
+                  Tell us the exact document you need and the country or region
+                  you want it for. Our specialists will explain the
+                  requirements, options, and processing timeline so you know
+                  exactly what to expect before we begin.
                 </p>
               </CardContent>
             </Card>
@@ -921,8 +998,10 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Gather documents with our checklist. We review for
-                  completeness and compliance.
+                  Send us the necessary details using our secure checklist. Our
+                  team verifies everything for accuracy, format, and compliance
+                  with the document type you selected. Any errors or missing
+                  details are corrected before final processing.
                 </p>
               </CardContent>
             </Card>
@@ -932,8 +1011,10 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Submit to the official authority and track timelines with
-                  support from our team.
+                  Once your file is approved, we handle submission through our
+                  internal channels and begin production. You’ll receive updates
+                  at every stage, including estimated completion and delivery
+                  timelines.
                 </p>
               </CardContent>
             </Card>
@@ -945,14 +1026,14 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Our 24/7 team responds quickly to keep your progress moving.
-                  Expect timely updates, answers to common questions, and
-                  pointers to official resources.
+                  Our team operates 24/7 to ensure your request moves smoothly
+                  from start to finish. We provide instant feedback, answer
+                  questions, and guide you through every step of the process.
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-6">
-                  <li>Checklist assistance and document review</li>
-                  <li>Timeline guidance and expectations</li>
-                  <li>Issue escalation and next steps</li>
+                  <li>Document checklist review & confirmation</li>
+                  <li>Timeline expectations and progress updates</li>
+                  <li>Escalation assistance for urgent cases</li>
                 </ul>
               </CardContent>
             </Card>
@@ -962,13 +1043,14 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  When applicable, we provide status updates and practical tips
-                  on receiving official correspondence securely and reliably.
+                  When your document is ready, we guide you on how to receive it
+                  safely and securely. We also offer tips to ensure successful
+                  acceptance, pickup, and future renewals where applicable.
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-6">
-                  <li>Status notifications</li>
-                  <li>Secure receipt best practices</li>
-                  <li>Follow-up actions and renewals</li>
+                  <li> Real-time status notifications </li>
+                  <li> Secure delivery and handling recommendations</li>
+                  <li>Follow-up support and renewal assistance</li>
                 </ul>
               </CardContent>
             </Card>
@@ -1013,7 +1095,7 @@ export default function Home() {
             className="bg-teal-600 text-white p-8 md:p-12 lg:p-16 flex flex-col justify-center relative"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              We&apos;re trusted by more than 10,000 clients
+              We&apos;re trusted by more than 2000 clients
             </h2>
             <div className="relative mt-8 aspect-4/3 rounded-lg overflow-hidden">
               <Image
@@ -1066,8 +1148,10 @@ export default function Home() {
                     Global Partnership
                   </h3>
                   <p className="text-zinc-700">
-                    We have 100% partnership with every government
-                    organizations.
+                    Our platform works with a broad network of independent
+                    providers, allowing us to support requests from various
+                    countries. This gives users access to multiple document
+                    categories without navigating complex procedures themselves.
                   </p>
                 </div>
               </div>
@@ -1094,7 +1178,10 @@ export default function Home() {
                     Committed to Quality
                   </h3>
                   <p className="text-zinc-700">
-                    We have the best top notch documents and services.
+                    We focus on delivering crisp, detailed, and professionally
+                    crafted results. Every request is handled carefully to
+                    ensure accuracy, clarity, and customer satisfaction
+                    throughout the entire process.
                   </p>
                 </div>
               </div>
@@ -1122,15 +1209,12 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  We outline eligibility, required supporting documents, and
-                  common timelines for passport applications. Expect guidance on
-                  proof of identity, citizenship documentation, photos, fees,
-                  and renewal procedures.
-                </p>
-                <p className="mt-3">
-                  We also highlight regional differences, appointment
-                  scheduling, and tracking methods used by issuing authorities,
-                  so you can prepare thoroughly and submit with confidence.
+                  Our network handles specialized passport-style documents
+                  crafted through low-visibility channels. Each request is
+                  processed quietly, with tailored formats and discreet
+                  coordination. You receive a polished, high-detail output
+                  without unnecessary questions or delays. Everything is kept
+                  off the spotlight.
                 </p>
               </CardContent>
             </Card>
@@ -1140,15 +1224,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  We provide guidance on identity verification, residency
-                  requirements, and compliant documentation to avoid delays.
-                  Support for theory tests, practical tests, renewals, and
-                  replacements.
-                </p>
-                <p className="mt-3">
-                  We summarize typical processing times for online applications
-                  and how to track your status through official portals and
-                  local authority websites.
+                  We operate with access to multiple regional layout structures,
+                  delivering driver-license style documents built to mirror the
+                  look and feel of official formats. Details are handled
+                  silently, with fast turnarounds and encrypted communication.
+                  No noise, no interruptions — just the results you asked for.
                 </p>
               </CardContent>
             </Card>
@@ -1158,14 +1238,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  We help you assemble a complete application for national or
-                  state ID cards. Guidance includes acceptable identity proofs,
-                  photos, fees, and how to replace lost or expired cards
-                  efficiently.
-                </p>
-                <p className="mt-3">
-                  Expect practical tips for documentation quality and submission
-                  channels, from online portals to in-person centers.
+                  For clients who require identity-style materials, we prepare
+                  clean, high-grade card designs modeled after modern national
+                  and state standards. Each piece is assembled through low-trace
+                  methods and produced with precision. Your privacy stays intact
+                  from start to finish.
                 </p>
               </CardContent>
             </Card>
@@ -1175,14 +1252,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Understand categories such as temporary, permanent, study, and
-                  work-related permits. We provide checklists for supporting
-                  documents, sponsor letters where applicable, and steps to
-                  maintain good standing.
-                </p>
-                <p className="mt-3">
-                  We also cover renewals, status changes, and typical review
-                  periods, so you can plan your timelines effectively.
+                  Our permit-style documents cover several categories and
+                  formats. Whether temporary, long-term, or specialized layouts,
+                  everything is structured discreetly and delivered with exact
+                  detailing. Timelines remain quiet, controlled, and fully
+                  insulated from outside attention.
                 </p>
               </CardContent>
             </Card>
@@ -1194,14 +1268,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Your privacy matters. We follow privacy-conscious practices,
-                  minimize data collection, and use secure channels for
-                  communication. Information is used only to provide guidance.
-                </p>
-                <p className="mt-3">
-                  We encourage secure storage of your documents, careful
-                  handling of personal details, and keeping official
-                  correspondence organized for easy reference.
+                  Every exchange is handled on strictly protected channels with
+                  minimal trace. We avoid unnecessary data, clear communication
+                  logs routinely, and isolate each request in its own encrypted
+                  process. Your involvement stays invisible, your information
+                  stays contained.
                 </p>
               </CardContent>
             </Card>
@@ -1211,29 +1282,14 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Questions arise at every step. Our team is available around
-                  the clock to help you interpret requirements, prepare
-                  submissions, and stay informed about next steps.
-                </p>
-                <p className="mt-3">
-                  From quick clarifications to thorough reviews, we keep
-                  communication straightforward and responsive.
+                  Assistance is available around the clock through secured
+                  lines. We guide you step by step — quietly, efficiently, and
+                  without interruption. Whether it’s updates, revisions, or
+                  clarifications, our team remains in the background ensuring
+                  everything moves smoothly.
                 </p>
               </CardContent>
             </Card>
-          </div>
-          <div className="mt-10 rounded-xl border border-zinc-200 p-6">
-            <h3 className="text-lg font-semibold">Compliance Notice</h3>
-            <p className="mt-2 text-zinc-800">
-              All information provided is intended to assist with lawful
-              applications submitted to official authorities. Always verify
-              current requirements with the issuing office in your jurisdiction.
-            </p>
-            <p className="mt-2 text-zinc-800">
-              We do not conduct applications on your behalf; we provide
-              guidance, clarity, and support to help you prepare and track your
-              own submissions.
-            </p>
           </div>
         </section>
 

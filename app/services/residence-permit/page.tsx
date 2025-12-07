@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { CountrySelector } from "@/components/country-selector";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -51,10 +52,10 @@ export default function ResidencePermitPage() {
         className="text-center space-y-6"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-          Buy Residence Permit Online
+          Professional Residence Permit Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          Top Docs is an agency you can trust to buy a <strong>residence permit</strong> online. Get your <strong>UK residence permit</strong>, <strong>EU residence permit</strong>, <strong>Greece residence permit</strong>, <strong>Portugal residence permit</strong>, <strong>Spain residence permit</strong>, <strong>Germany residence permit</strong>, <strong>France residence permit</strong>, <strong>Italy residence permit</strong>, <strong>Cyprus residence permit</strong>, <strong>Estonia residence permit</strong>, <strong>Canada residence permit</strong>, <strong>USA residence permit</strong>, or <strong>biometric residence permit</strong>. We help you process original documents.
+          Top Docs provides professional guidance and support for residence permit applications from various countries. Whether you need a UK residence permit, EU residence permit, or permit from other jurisdictions, our expert team helps you navigate the process with confidence.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
@@ -66,6 +67,7 @@ export default function ResidencePermitPage() {
             </Button>
           </Link>
         </div>
+        <CountrySelector />
       </motion.section>
 
       {/* Quality Features */}
@@ -598,6 +600,50 @@ export default function ResidencePermitPage() {
             </Button>
           </Link>
       </div>
+      </motion.section>
+
+      {/* Keywords Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="border-t border-zinc-200 pt-12"
+      >
+        <motion.h2
+          variants={fadeInUp}
+          className="text-2xl font-semibold mb-6 text-center"
+        >
+          Popular Search Terms
+        </motion.h2>
+        <motion.div
+          variants={staggerContainer}
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <motion.div variants={fadeInUp}>
+            <h3 className="font-semibold text-zinc-900 mb-3">
+              Residence Permits
+            </h3>
+            <ul className="space-y-1 text-sm text-zinc-600">
+              <li>• UK residence permit</li>
+              <li>• EU residence permit</li>
+              <li>• Greece residence permit</li>
+              <li>• Portugal residence permit</li>
+              <li>• Spain residence permit</li>
+              <li>• Germany residence permit</li>
+              <li>• France residence permit</li>
+              <li>• Italy residence permit</li>
+              <li>• Cyprus residence permit</li>
+              <li>• Estonia residence permit</li>
+              <li>• Canada residence permit</li>
+              <li>• USA residence permit</li>
+              <li>• biometric residence permit</li>
+              <li>• Permesso di soggiorno</li>
+              <li>• Arbeitserlaubnis Deutschland</li>
+              <li>• Niederlassungserlaubnis</li>
+            </ul>
+          </motion.div>
+        </motion.div>
       </motion.section>
     </main>
   );

@@ -227,16 +227,60 @@ export default function Page() {
 
                 <div>
                   <Label htmlFor="service" className="text-zinc-900">
-                    Service of Interest (Optional)
+                    Service of Interest <span className="text-red-500">*</span>
                   </Label>
                   <Input
                     id="service"
                     name="service"
+                    required
                     placeholder="e.g., Passport, Driver's License, ID Card, Residence Permit"
                     className="mt-2"
                   />
                   <p className="mt-1 text-xs text-zinc-600">
                     Help us direct your inquiry to the right specialist
+                  </p>
+                </div>
+
+                <div>
+                  <Label htmlFor="country" className="text-zinc-900">
+                    European Country (Optional)
+                  </Label>
+                  <select
+                    id="country"
+                    name="country"
+                    className="mt-2 flex h-10 w-full rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  >
+                    <option value="">Select a country</option>
+                    <option value="France">🇫🇷 France</option>
+                    <option value="Italy">🇮🇹 Italy</option>
+                    <option value="Netherlands">🇳🇱 Netherlands</option>
+                    <option value="Belgium">🇧🇪 Belgium</option>
+                    <option value="Austria">🇦🇹 Austria</option>
+                    <option value="Switzerland">🇨🇭 Switzerland</option>
+                    <option value="Portugal">🇵🇹 Portugal</option>
+                    <option value="Greece">🇬🇷 Greece</option>
+                    <option value="Poland">🇵🇱 Poland</option>
+                    <option value="Sweden">🇸🇪 Sweden</option>
+                    <option value="Denmark">🇩🇰 Denmark</option>
+                    <option value="Norway">🇳🇴 Norway</option>
+                    <option value="Finland">🇫🇮 Finland</option>
+                    <option value="Ireland">🇮🇪 Ireland</option>
+                    <option value="Czech Republic">🇨🇿 Czech Republic</option>
+                    <option value="Hungary">🇭🇺 Hungary</option>
+                    <option value="Romania">🇷🇴 Romania</option>
+                    <option value="Bulgaria">🇧🇬 Bulgaria</option>
+                    <option value="Croatia">🇭🇷 Croatia</option>
+                    <option value="Slovakia">🇸🇰 Slovakia</option>
+                    <option value="Slovenia">🇸🇮 Slovenia</option>
+                    <option value="Lithuania">🇱🇹 Lithuania</option>
+                    <option value="Latvia">🇱🇻 Latvia</option>
+                    <option value="Estonia">🇪🇪 Estonia</option>
+                    <option value="Luxembourg">🇱🇺 Luxembourg</option>
+                    <option value="Malta">🇲🇹 Malta</option>
+                    <option value="Cyprus">🇨🇾 Cyprus</option>
+                  </select>
+                  <p className="mt-1 text-xs text-zinc-600">
+                    Select your European country (excluding Germany, UK, and Spain)
                   </p>
                 </div>
 

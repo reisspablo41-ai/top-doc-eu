@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { CountrySelector } from '@/components/country-selector';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -30,10 +31,10 @@ export default function DriversLicensePage() {
         className="text-center space-y-6"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-          UK Driving Licence & Driver&apos;s License Services
+          Professional Driver&apos;s License Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          Professional guidance for <strong>UK driving licence</strong>, <strong>DVLA driving licence</strong>, <strong>apply for driving licence UK</strong>, <strong>provisional driving licence UK</strong>, <strong>replacement driving licence</strong>, <strong>UK driving theory test</strong>, <strong>practical driving test</strong>, <strong>professional driver license</strong>, <strong>CPC licence</strong>, <strong>motorcycle license</strong>, <strong>lost driving licence</strong>, and <strong>where to buy a legal UK Driving License</strong>. Learn how to use <strong>DVLA online</strong>, <strong>driving licence apply online</strong>, <strong>driving test online</strong> booking, and all <strong>DVLA services</strong>. We provide comprehensive assistance for <strong>driving licence apply</strong>, renewals, replacements, and legal conversion to <strong>European driving license</strong>.
+          Top Docs provides professional guidance and support for driver&apos;s license applications, renewals, replacements, and conversions. Whether you need a UK driving licence, European license, or license from other jurisdictions, our expert team helps you navigate the process with confidence.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
@@ -45,6 +46,7 @@ export default function DriversLicensePage() {
             </Button>
           </Link>
         </div>
+        <CountrySelector />
       </motion.section>
 
       {/* Overview Section */}
@@ -64,11 +66,10 @@ export default function DriversLicensePage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              Top Docs is a global provider of quality database documents,
-              specializing in <strong>driving licence</strong>, <strong>UK driving licence</strong>, <strong>DVLA driving licence</strong>, <strong>drivers license</strong>, <strong>drivers license UK</strong>, <strong>professional driver license</strong>, <strong>motorcycle license</strong>, passports, ID cards, residence permits, and more. With over 30 years of experience serving clients worldwide, we offer professional guidance for <strong>driving licence apply</strong>, <strong>driving licence online</strong>, <strong>UK driving theory test</strong>, <strong>practical driving test</strong>, <strong>CPC licence</strong>, and <strong>lost driving licence</strong> replacement.
+              Top Docs is a global provider of quality database documents, specializing in driver&apos;s licenses, passports, ID cards, residence permits, and more. With over 30 years of experience serving clients worldwide, we offer professional guidance for license applications, renewals, replacements, and conversions.
             </p>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              Our driver&apos;s license services focus on providing comprehensive support for <strong>driving licence apply online</strong>, <strong>DVLA online</strong> services, <strong>driving test online</strong> booking, <strong>license test</strong>, <strong>drivers license renewal</strong>, <strong>renew drivers license UK</strong>, and <strong>replacement driving licence</strong>. We understand that navigating <strong>driving licence</strong> requirements can be complex, and our expert team guides you through <strong>driving licence process</strong>, <strong>driver's license process</strong>, and all <strong>DVLA services</strong>.
+              Our driver&apos;s license services focus on providing comprehensive support throughout the entire process. We understand that navigating license requirements can be complex, and our expert team guides you through every step, from understanding eligibility requirements to submitting your application and tracking its status.
             </p>
           </CardContent>
         </Card>
@@ -663,6 +664,52 @@ export default function DriversLicensePage() {
             </Button>
           </Link>
       </div>
+      </motion.section>
+
+      {/* Keywords Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="border-t border-zinc-200 pt-12"
+      >
+        <motion.h2
+          variants={fadeInUp}
+          className="text-2xl font-semibold mb-6 text-center"
+        >
+          Popular Search Terms
+        </motion.h2>
+        <motion.div
+          variants={staggerContainer}
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <motion.div variants={fadeInUp}>
+            <h3 className="font-semibold text-zinc-900 mb-3">
+              Driver&apos;s Licenses
+            </h3>
+            <ul className="space-y-1 text-sm text-zinc-600">
+              <li>• UK driving licence</li>
+              <li>• DVLA driving licence</li>
+              <li>• apply for driving licence UK</li>
+              <li>• provisional driving licence UK</li>
+              <li>• replacement driving licence</li>
+              <li>• UK driving theory test</li>
+              <li>• practical driving test</li>
+              <li>• professional driver license</li>
+              <li>• CPC licence</li>
+              <li>• motorcycle license</li>
+              <li>• lost driving licence</li>
+              <li>• driving licence apply online</li>
+              <li>• DVLA online</li>
+              <li>• driving test online</li>
+              <li>• drivers license renewal</li>
+              <li>• renew drivers license UK</li>
+              <li>• European driving license</li>
+              <li>• deutscher führerschein</li>
+            </ul>
+          </motion.div>
+        </motion.div>
       </motion.section>
     </main>
   );

@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { CountrySelector } from "@/components/country-selector";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -75,6 +76,7 @@ export default function WorkPermitPage() {
             </Button>
           </Link>
         </div>
+        <CountrySelector />
       </motion.section>
 
       {/* Image Section */}
@@ -636,6 +638,39 @@ export default function WorkPermitPage() {
             </Button>
           </Link>
       </div>
+      </motion.section>
+
+      {/* Keywords Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="border-t border-zinc-200 pt-12"
+      >
+        <motion.h2
+          variants={fadeInUp}
+          className="text-2xl font-semibold mb-6 text-center"
+        >
+          Popular Search Terms
+        </motion.h2>
+        <motion.div
+          variants={staggerContainer}
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <motion.div variants={fadeInUp}>
+            <h3 className="font-semibold text-zinc-900 mb-3">Work Permits</h3>
+            <ul className="space-y-1 text-sm text-zinc-600">
+              <li>• work permit</li>
+              <li>• work visa</li>
+              <li>• employment authorization</li>
+              <li>• work authorization</li>
+              <li>• temporary work permit</li>
+              <li>• skilled worker permit</li>
+              <li>• seasonal work permit</li>
+            </ul>
+          </motion.div>
+        </motion.div>
       </motion.section>
     </main>
   );

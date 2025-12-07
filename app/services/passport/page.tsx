@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { CountrySelector } from "@/components/country-selector";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -145,10 +146,10 @@ export default function PassportPage() {
         className="text-center space-y-6"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-          Obtener un Pasaporte Legal Ahora
+          Professional Passport Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          ¿Necesitas <strong>obtener un pasaporte</strong> o <strong>sacar cita para pasaporte</strong>? Aprende <strong>cómo sacar el pasaporte</strong>, <strong>cómo sacar mi pasaporte</strong>, y todos los <strong>requisitos para sacar pasaporte</strong>. Top Docs es una agencia de confianza para <strong>obtener pasaporte mexicano</strong> o cualquier pasaporte. Puedes <strong>sacar pasaporte por primera vez</strong> o renovar tu pasaporte con nuestro equipo dedicado que ayuda a nuestros clientes a procesar pasaportes originales.
+          Top Docs provides professional guidance and support for passport applications, renewals, and replacements. Whether you need a new passport or need to renew an existing one, our expert team helps you navigate the process with confidence and clarity.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
@@ -160,6 +161,7 @@ export default function PassportPage() {
             </Button>
           </Link>
         </div>
+        <CountrySelector />
       </motion.section>
 
       {/* Image Slider */}
@@ -254,13 +256,13 @@ export default function PassportPage() {
         <Card>
           <CardContent className="pt-6">
             <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-              Cómo Sacar el Pasaporte - Simple y Conveniente
+              Professional Passport Services - Simple and Convenient
             </h2>
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              ¿Estás planeando un viaje internacional y necesitas <strong>obtener un pasaporte</strong>? ¿O tal vez necesitas <strong>sacar cita para renovar pasaporte</strong>? De cualquier manera, te explicamos <strong>cómo sacar el pasaporte</strong>, <strong>cómo sacar mi pasaporte</strong>, y todos los <strong>requisitos para sacar pasaporte</strong> que necesitas conocer.
+              Planning an international trip and need a passport? Or perhaps you need to renew your existing passport? Top Docs provides comprehensive guidance for all your passport needs, helping you understand requirements, navigate the application process, and ensure your documentation is complete and compliant.
             </p>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              Ya no necesitas tomar tiempo libre del trabajo y hacer largas filas en la oficina de pasaportes. Ahora puedes <strong>sacar cita para pasaporte</strong> en línea y <strong>tramitar para sacar pasaporte</strong> desde la comodidad de tu hogar. Te explicamos <strong>cómo sacar cita para pasaporte</strong>, <strong>donde puedo tramitar mi pasaporte</strong>, y todos los pasos para <strong>obtener pasaporte mexicano</strong> o cualquier otro pasaporte de manera rápida y eficiente.
+              Our expert team guides you through every step of the passport process, from understanding eligibility requirements to submitting your application. We help you prepare all necessary documentation, schedule appointments when needed, and track your application status throughout the process.
             </p>
           </CardContent>
         </Card>
@@ -275,15 +277,15 @@ export default function PassportPage() {
         className="space-y-6"
       >
         <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
-          Requisitos para Sacar Pasaporte
+          Passport Requirements
         </motion.h2>
         <Card>
           <CardHeader>
-            <CardTitle>Requisitos para Obtener un Pasaporte</CardTitle>
+            <CardTitle>Requirements to Obtain a Passport</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 leading-relaxed mb-4">
-              Lo primero que necesitas hacer es verificar los <strong>requisitos para sacar pasaporte</strong>. Para <strong>obtener un pasaporte</strong> o <strong>sacar pasaporte por primera vez</strong>, debes cumplir con:
+              The first step in obtaining a passport is to verify the requirements. To apply for a new passport or obtain your first passport, you must meet the following criteria:
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700">
               <li>
@@ -570,6 +572,42 @@ export default function PassportPage() {
             </Button>
           </Link>
         </div>
+      </motion.section>
+
+      {/* Keywords Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="border-t border-zinc-200 pt-12"
+      >
+        <motion.h2
+          variants={fadeInUp}
+          className="text-2xl font-semibold mb-6 text-center"
+        >
+          Popular Search Terms
+        </motion.h2>
+        <motion.div
+          variants={staggerContainer}
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <motion.div variants={fadeInUp}>
+            <h3 className="font-semibold text-zinc-900 mb-3">Passport Services</h3>
+            <ul className="space-y-1 text-sm text-zinc-600">
+              <li>• obtener un pasaporte</li>
+              <li>• sacar cita para pasaporte</li>
+              <li>• cómo sacar el pasaporte</li>
+              <li>• requisitos para sacar pasaporte</li>
+              <li>• obtener pasaporte mexicano</li>
+              <li>• sacar pasaporte por primera vez</li>
+              <li>• UK passport application</li>
+              <li>• British passport renewal</li>
+              <li>• Passport UK</li>
+              <li>• Apply for UK passport</li>
+            </ul>
+          </motion.div>
+        </motion.div>
       </motion.section>
     </main>
   );

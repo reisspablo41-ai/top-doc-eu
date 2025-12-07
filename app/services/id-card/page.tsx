@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { CountrySelector } from "@/components/country-selector";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -51,10 +52,10 @@ export default function IDCardPage() {
         className="text-center space-y-6"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-          Original ID Card Services
+          Professional ID Card Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          Complete guide to obtaining, renewing, or replacing official <strong>ID card</strong>, <strong>identity card</strong>, <strong>id card UK</strong>, <strong>identity card UK</strong>, <strong>identity document</strong>, and <strong>card application</strong>. Understand requirements for <strong>id card</strong> applications, processing timelines, and replacement procedures.
+          Top Docs provides comprehensive guidance for obtaining, renewing, or replacing official ID cards. Our expert team helps you understand requirements, navigate the application process, and ensure your documentation is complete and compliant.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
@@ -66,6 +67,7 @@ export default function IDCardPage() {
             </Button>
           </Link>
         </div>
+        <CountrySelector />
       </motion.section>
 
       {/* Eligibility Requirements Section */}
@@ -714,6 +716,41 @@ export default function IDCardPage() {
             </Button>
           </Link>
       </div>
+      </motion.section>
+
+      {/* Keywords Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="border-t border-zinc-200 pt-12"
+      >
+        <motion.h2
+          variants={fadeInUp}
+          className="text-2xl font-semibold mb-6 text-center"
+        >
+          Popular Search Terms
+        </motion.h2>
+        <motion.div
+          variants={staggerContainer}
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <motion.div variants={fadeInUp}>
+            <h3 className="font-semibold text-zinc-900 mb-3">ID Cards</h3>
+            <ul className="space-y-1 text-sm text-zinc-600">
+              <li>• ID card</li>
+              <li>• identity card</li>
+              <li>• id card UK</li>
+              <li>• identity card UK</li>
+              <li>• identity document</li>
+              <li>• card application</li>
+              <li>• national ID card</li>
+              <li>• state ID card</li>
+              <li>• identity verification</li>
+            </ul>
+          </motion.div>
+        </motion.div>
       </motion.section>
     </main>
   );
