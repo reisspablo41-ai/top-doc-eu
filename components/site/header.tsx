@@ -14,7 +14,7 @@ export function Header() {
     { href: "/services/drivers-license", label: "Driver's License" },
     { href: "/services/id-card", label: "ID Card" },
     { href: "/services/residence-permit", label: "Residence Permit" },
-    { href: "/services/work-permit", label: "Work Permit" },
+    { href: "/services/australian-driver-license", label: "Australian Driver License" },
   ];
 
   const resourcesLinks = [
