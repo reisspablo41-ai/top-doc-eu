@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -32,7 +33,9 @@ export default function ServicesPage() {
           Our Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          We produce real database-registered documents and premium replica versions depending on your needs. No interviews, no long processes, just reliable documents delivered quickly and confidentially.
+          We produce real database-registered documents and premium replica
+          versions depending on your needs. No interviews, no long processes,
+          just reliable documents delivered quickly and confidentially.
         </p>
       </motion.section>
 
@@ -148,9 +151,9 @@ export default function ServicesPage() {
                     Buy Driver&apos;s License
                   </h3>
                   <p className="text-white/90 text-sm">
-                      Get authentic-looking driver&apos;s licenses that scan,
-                      swipe, and verify.
-                    </p>
+                    Get authentic-looking driver&apos;s licenses that scan,
+                    swipe, and verify.
+                  </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
@@ -158,20 +161,20 @@ export default function ServicesPage() {
                     Buy Driver&apos;s License
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                      Get authentic-looking driver's licenses that scan, swipe,
-                      and verify. Our licenses come with holograms, barcodes,
-                      and UV features identical to the real thing. We work with
-                      all regions and states, ensuring your document meets
-                      official standards.
-                    </p>
+                    Get authentic-looking driver&apos;s licenses that scan,
+                    swipe, and verify. Our licenses come with holograms,
+                    barcodes, and UV features identical to the real thing. We
+                    work with all regions and states, ensuring your document
+                    meets official standards.
+                  </p>
 
-                    <Button
-                      variant="outline"
-                      size="lg"
-                      className="!bg-white !text-teal-600 hover:!bg-zinc-100 border-white"
-                    >
-                      Learn More
-                    </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="!bg-white !text-teal-600 hover:!bg-zinc-100 border-white"
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             </Link>
@@ -213,9 +216,9 @@ export default function ServicesPage() {
                     Buy ID Cards
                   </h3>
                   <p className="text-white/90 text-sm">
-                      Order high-quality ID cards with full security elements,
-                      magnetic stripes, signatures, and custom details.
-                    </p>
+                    Order high-quality ID cards with full security elements,
+                    magnetic stripes, signatures, and custom details.
+                  </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
@@ -223,26 +226,26 @@ export default function ServicesPage() {
                     Buy ID Cards
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                      Order high-quality ID cards with full security elements,
-                      magnetic stripes, signatures, and custom details. We
-                      guarantee unmatched precision, fast turnaround times, and
-                      24/7 support. Your privacy and anonymity are fully
-                      protected.
-                    </p>
+                    Order high-quality ID cards with full security elements,
+                    magnetic stripes, signatures, and custom details. We
+                    guarantee unmatched precision, fast turnaround times, and
+                    24/7 support. Your privacy and anonymity are fully
+                    protected.
+                  </p>
 
-                    <Button
-                      variant="outline"
-                      size="lg"
-                      className="!bg-white !text-teal-600 hover:!bg-zinc-100 border-white"
-                    >
-                      Learn More
-                    </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="!bg-white !text-teal-600 hover:!bg-zinc-100 border-white"
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             </Link>
           </motion.div>
         </motion.div>
-        
+
         {/* Residence Permit Cards - Below the main 3 */}
         <div className="grid gap-6 lg:grid-cols-2 mt-6">
           <motion.div variants={fadeInUp}>
@@ -280,9 +283,9 @@ export default function ServicesPage() {
                     Buy Residence Permit
                   </h3>
                   <p className="text-white/90 text-sm">
-                      Apply for high-quality Resident Cards with full security
-                      features and database registration.
-                    </p>
+                    Apply for high-quality Resident Cards with full security
+                    features and database registration.
+                  </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
@@ -290,21 +293,21 @@ export default function ServicesPage() {
                     Buy Residence Permit
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                      Apply for high-quality Resident Cards with full security
-                      features and database registration. We process cards for
-                      multiple countries with biometric details, signature
-                      panels, and machine-readable zones. No interviews, no long
-                      waiting periods — your card is created and delivered
-                      discreetly with guaranteed authenticity.
-                    </p>
+                    Apply for high-quality Resident Cards with full security
+                    features and database registration. We process cards for
+                    multiple countries with biometric details, signature panels,
+                    and machine-readable zones. No interviews, no long waiting
+                    periods — your card is created and delivered discreetly with
+                    guaranteed authenticity.
+                  </p>
 
-                    <Button
-                      variant="outline"
-                      size="lg"
-                      className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
-                    >
-                      Learn More
-                    </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             </Link>
@@ -344,13 +347,13 @@ export default function ServicesPage() {
                     Clear Australian Driving Record
                   </h3>
                   <p className="text-white/90 text-sm">
-                      Need a clean Australian driving record? We offer fast and
-                      confidential record adjustment services. Traffic points,
-                      suspensions, fines, and previous violations can be removed
-                      from your file through our secure partner network. Your
-                      new record will appear clean in all standard checks and
-                      verifications.
-                    </p>
+                    Need a clean Australian driving record? We offer fast and
+                    confidential record adjustment services. Traffic points,
+                    suspensions, fines, and previous violations can be removed
+                    from your file through our secure partner network. Your new
+                    record will appear clean in all standard checks and
+                    verifications.
+                  </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
@@ -358,30 +361,173 @@ export default function ServicesPage() {
                     Clear Australian Driving Record
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                      Need a clean Australian driving record? We offer fast and
-                      confidential record adjustment services. Traffic points,
-                      suspensions, fines, and previous violations can be removed
-                      from your file through our secure partner network. Your
-                      new record will appear clean in all standard checks and
-                      verifications.
-                    </p>
+                    Need a clean Australian driving record? We offer fast and
+                    confidential record adjustment services. Traffic points,
+                    suspensions, fines, and previous violations can be removed
+                    from your file through our secure partner network. Your new
+                    record will appear clean in all standard checks and
+                    verifications.
+                  </p>
 
-                    <Button
-                      variant="outline"
-                      size="lg"
-                      className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
-                    >
-                      Learn More
-                    </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="bg-white text-teal-600 hover:bg-zinc-100 border-white"
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             </Link>
           </motion.div>
         </div>
+
+        {/* Production & Delivery and Security Cards */}
+        <motion.div
+          variants={staggerContainer}
+          className="mt-10 grid gap-6 lg:grid-cols-2"
+        >
+          <motion.div variants={fadeInUp}>
+            <Card>
+              <CardHeader>
+                <CardTitle>Production & Delivery</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  Preparation timelines typically range from 1–3 days, with Our
+                  processing timelines are fast, discreet, and tailored to your
+                  region. Most documents are prepared within 1–3 days, with
+                  delivery times depending on the destination and document
+                  category. We provide clear updates at every stage to keep your
+                  order fully on track.
+                </p>
+                <ul className="mt-4 list-disc space-y-2 pl-6">
+                  <li>
+                    Customized document requirements based on your country
+                  </li>
+                  <li>Submission schedules aligned to official processing</li>
+                  <li>Real-time progress updates and delivery notifications</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Card>
+              <CardHeader>
+                <CardTitle>Security & Confidentiality</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  Your privacy is our top priority. All orders are handled using
+                  secure communication channels, encrypted workflows, and strict
+                  confidentiality protocols. We only request the minimum
+                  information required to process your file.
+                </p>
+                <ul className="mt-4 list-disc space-y-2 pl-6">
+                  <li>No unnecessary data collection</li>
+                  <li>Encrypted chats and private contact methods</li>
+                  <li>Discreet packaging and secure delivery handling</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </motion.div>
+        </motion.div>
+      </motion.section>
+
+      {/* Our Service Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={staggerContainer}
+        className="py-20 bg-gradient-to-b from-white to-zinc-50"
+      >
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid gap-12 lg:grid-cols-2 items-center">
+            <motion.div variants={fadeInUp} className="space-y-6">
+              <div className="space-y-2">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-zinc-900">
+                  Our Service
+                </h2>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-teal-600">
+                  DO YOU NEED ANY DOCUMENT?
+                </h3>
+              </div>
+              <p className="text-xl text-zinc-700 leading-relaxed">
+                Since 2013, we&apos;ve specialized in delivering high-quality
+                documents with unmatched precision and reliability. Over decades
+                of experience has made us a trusted provider in the document
+                industry, offering fast, accurate, and professional solutions
+                for clients worldwide.
+              </p>
+              <div className="space-y-4 pt-4">
+                <motion.div
+                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                  whileHover={{ x: 5 }}
+                >
+                  <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
+                  <p className="text-zinc-800 font-medium text-lg">
+                    Traveler Documents
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                  whileHover={{ x: 5 }}
+                >
+                  <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
+                  <p className="text-zinc-800 font-medium text-lg">
+                    Travel Authorization
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                  whileHover={{ x: 5 }}
+                >
+                  <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
+                  <p className="text-zinc-800 font-medium text-lg">
+                    Driving Records
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                  whileHover={{ x: 5 }}
+                >
+                  <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
+                  <p className="text-zinc-800 font-medium text-lg">
+                    Documents for Verification (KYC, VideoIDdent etc..)
+                  </p>
+                </motion.div>
+              </div>
+              <p className="text-base text-zinc-600 leading-relaxed pt-4">
+                We have extensive experience in creating American, European,
+                Australian, UK, and Asian passports. Our professional document
+                services are available worldwide, ensuring quality and
+                authenticity in every document we produce.
+              </p>
+              <Link href="/about">
+                <Button className="mt-6 bg-teal-600 hover:bg-teal-700 text-white">
+                  More About Us
+                </Button>
+              </Link>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="relative overflow-hidden rounded-2xl shadow-2xl"
+            >
+              <div className="aspect-4/3 relative">
+                <Image
+                  src="https://images.pexels.com/photos/4922080/pexels-photo-4922080.jpeg"
+                  alt="Professional document services"
+                  fill
+                  className="object-cover rounded-2xl"
+                  unoptimized
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
       </motion.section>
     </main>
   );
 }
-
-
-

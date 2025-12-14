@@ -148,9 +148,14 @@ export default function PassportPage() {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
           Professional Passport Services
         </h1>
-        <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          Top Docs provides professional guidance and support for passport applications, renewals, and replacements. Whether you need a new passport or need to renew an existing one, our expert team helps you navigate the process with confidence and clarity.
-        </p>
+        <div className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed space-y-4">
+          <p>
+            Top Docs is a trusted provider of high-quality passport documents, created with attention to detail and precision. We specialize in delivering passports that meet expected standards, ensuring accuracy, consistency, and a professional finish.
+          </p>
+          <p>
+            Our service is designed for individuals who need a passport solution handled discreetly, efficiently, and without unnecessary delays. With a streamlined process and dedicated support, we make the experience simple and straightforward.
+          </p>
+        </div>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
             <Button size="lg">Get Started</Button>
