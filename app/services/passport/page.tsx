@@ -477,56 +477,6 @@ export default function PassportPage() {
         </Card>
       </motion.section>
 
-      {/* Service Provider Section */}
-      <motion.section
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, margin: "-100px" }}
-        variants={staggerContainer}
-        className="space-y-6"
-      >
-        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
-          Choose a Passport Service Provider
-        </motion.h2>
-        <Card>
-          <CardContent className="pt-6">
-            <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Now it&apos;s time to choose a passport service provider to buy a 
-              passport. There are a few options to choose from, including government 
-              agencies and private companies.
-            </p>
-            <div className="space-y-4">
-              <div>
-                <h4 className="font-semibold text-zinc-900 mb-2">
-                  Government Agencies
-                </h4>
-                <p className="text-zinc-700">
-                  If you choose to go through the government, you can apply online 
-                  or by mail. The process is generally faster if you apply online, 
-                  but you&apos;ll need to pay a processing fee. The application 
-                  process is straightforward, but it&apos;s important to make 
-                  sure that you complete all of the required fields and provide all 
-                  of the necessary documentation.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-zinc-900 mb-2">
-                  Private Companies - Top Docs
-                </h4>
-                <p className="text-zinc-700">
-                  Private companies like Top Docs can also help you with 
-                  the passport application process. We often offer additional services, 
-                  such as photo services and expedited processing, for an additional 
-                  fee. It&apos;s important to do your research and choose a reputable 
-                  company. Look for companies with good reviews like Top Docs 
-                  and a track record of helping customers successfully obtain their passports.
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </motion.section>
-
       {/* Why Choose Us Section */}
       <motion.section
         initial="initial"
@@ -602,6 +552,7 @@ export default function PassportPage() {
       </motion.section>
 
       {/* Buy Passport Online Section */}
+      {/* Buy Fake and Real Passports Online Section */}
       <motion.section
         initial="initial"
         whileInView="animate"
@@ -610,51 +561,52 @@ export default function PassportPage() {
         className="space-y-6"
       >
         <Card>
-          <CardContent className="pt-6">
-            <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-              Buy Fake and Real Passport Online
-            </h2>
-            <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              An authorization to travel isn&apos;t only an underwriting to all your 
-              outings. It is furthermore a character confirmation. As expected, you 
-              should be searching seriously and passport administrations; we are here 
-              for that. Regardless, is it the worldwide record that is negating you 
-              in researching the world? Like this, stress is not satisfactory. You have 
-              shown up at the ideal spot that is Buy Passport, for you should be heard.
-            </p>
-            <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              We appreciate and regard the necessities of our customers and that we 
-              embrace full-advantage objectivity to give satisfaction.
-            </p>
-            <p className="text-lg text-zinc-700 leading-relaxed">
-              We empower you to mastermind travel grants online for the countries. 
-              We are yet puzzling over if to choose the administrations offered to 
-              purchase genuine passports on the web? Indeed, when we convey fake and 
-              real global characters, we use the main things.
-            </p>
-          </CardContent>
-        </Card>
-      </motion.section>
+          <CardContent className="pt-6 space-y-6">
+            <div>
+              <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
+                Buy Fake and Real Passports Online
+              </h2>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                International mobility today requires documents that reflect accuracy, structure, and modern design standards. Our service is built to support individuals seeking professionally prepared passport documents that align with contemporary expectations.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                We understand that consistency, presentation, and attention to detail matter. That is why every request is handled with a focus on precision, discretion, and quality control, ensuring a refined and reliable outcome.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed">
+                Our approach is client-focused and results-driven, providing a smooth and controlled experience from start to completion.
+              </p>
+            </div>
 
-      {/* Submit Application Section */}
-      <motion.section
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, margin: "-100px" }}
-        variants={staggerContainer}
-        className="space-y-6"
-      >
-        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
-          Submit Your Application and Pay the Fee
-        </motion.h2>
-        <Card>
-          <CardContent className="pt-6">
-            <p className="text-lg text-zinc-700 leading-relaxed">
-              Once you&apos;ve gathered all the necessary documentation and chosen a 
-              passport service provider, it&apos;s time to submit your application and 
-              pay the fee. Contact our agency today and expect the delivery of your 
-              passport at the soonest.
-            </p>
+            <div className="border-t border-zinc-200 pt-6">
+              <h3 className="text-xl font-semibold text-zinc-900 mb-4">
+                Why Clients Choose Our Service
+              </h3>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Clients rely on our service because of our commitment to quality, confidentiality, and sophisticated document preparation.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Key reasons include:
+              </p>
+              <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
+                <li>Professionally structured passport layouts</li>
+                <li>Advanced security-oriented design elements</li>
+                <li>Controlled preparation and review process</li>
+                <li>Discreet handling of all client information</li>
+                <li>Consistent results across supported countries</li>
+              </ul>
+              <p className="text-lg text-zinc-700 leading-relaxed">
+                Each document is prepared to reflect the level of detail expected of modern international passports.
+              </p>
+            </div>
+
+            <div className="border-t border-zinc-200 pt-6">
+              <h3 className="text-xl font-semibold text-zinc-900 mb-4">
+                Next Steps
+              </h3>
+              <p className="text-lg text-zinc-700 leading-relaxed">
+                Getting started is straightforward. Select your country, review the available options, and proceed according to your preferred completion timeline. Our team ensures that every stage is handled professionally and efficiently.
+              </p>
+            </div>
           </CardContent>
         </Card>
       </motion.section>
