@@ -496,7 +496,7 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Buy Clear Australian Driving Record
+                      Clear Australian Driving Record
                     </h3>
                     <p className="text-white/90 text-sm">
                       “Need a clean Australian driving record? We offer fast and
@@ -510,7 +510,7 @@ export default function Home() {
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Buy Clear Australian Driving Record
+                      Clear Australian Driving Record
                     </h3>
                     <p className="text-lg mb-4 text-center">
                       “Need a clean Australian driving record? We offer fast and
@@ -612,7 +612,7 @@ export default function Home() {
                   document industry, offering fast, accurate, and professional
                   solutions for clients worldwide. • Travel Documents • Travel
                   Authorization • Driving Records • Documents for Verification
-                  (KYC, VideoIdentification etc..)
+                  (KYC, VideoIDdent etc..)
                 </p>
                 <div className="space-y-4 pt-4">
                   <motion.div

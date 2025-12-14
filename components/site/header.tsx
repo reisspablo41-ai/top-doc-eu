@@ -10,11 +10,11 @@ export function Header() {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
 
   const servicesLinks = [
-    { href: "/services/passport", label: "Real passport" },
-    { href: "/services/drivers-license", label: "Original drivers license" },
-    { href: "/services/id-card", label: "Original id card" },
-    { href: "/services/residence-permit", label: "Residence permit" },
-    { href: "/services/work-permit", label: "Work permit" },
+    { href: "/services/passport", label: "Passport" },
+    { href: "/services/drivers-license", label: "Driver's License" },
+    { href: "/services/id-card", label: "ID Card" },
+    { href: "/services/residence-permit", label: "Residence Permit" },
+    { href: "/services/work-permit", label: "Work Permit" },
   ];
 
   const resourcesLinks = [
@@ -52,7 +52,10 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <div className="relative group">
-            <button className="text-zinc-800 hover:text-teal-600 transition-colors flex items-center gap-1">
+            <Link 
+              href="/services"
+              className="text-zinc-800 hover:text-teal-600 transition-colors flex items-center gap-1"
+            >
               Services
               <svg
                 className="w-4 h-4 transition-transform group-hover:rotate-180"
@@ -62,7 +65,7 @@ export function Header() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </button>
+            </Link>
             <div className="absolute top-full left-0 mt-2 w-56 bg-white border border-zinc-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="py-2">
                 {servicesLinks.map((link) => (
@@ -145,20 +148,29 @@ export function Header() {
             <nav className="px-4 py-4 space-y-2">
               {/* Services Dropdown */}
               <div>
-                <button
-                  onClick={() => setIsServicesOpen(!isServicesOpen)}
-                  className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-zinc-800 hover:text-teal-600 transition-colors"
-                >
-                  <span>Services</span>
-                  <svg
-                    className={`w-4 h-4 transition-transform ${isServicesOpen ? "rotate-180" : ""}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                <div className="flex items-center justify-between">
+                  <Link
+                    href="/services"
+                    onClick={() => setIsMenuOpen(false)}
+                    className="flex-1 px-3 py-2 text-sm font-medium text-zinc-800 hover:text-teal-600 transition-colors"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
+                    Services
+                  </Link>
+                  <button
+                    onClick={() => setIsServicesOpen(!isServicesOpen)}
+                    className="p-2 text-zinc-800 hover:text-teal-600 transition-colors"
+                    aria-label="Toggle services menu"
+                  >
+                    <svg
+                      className={`w-4 h-4 transition-transform ${isServicesOpen ? "rotate-180" : ""}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
                 <AnimatePresence>
                   {isServicesOpen && (
                     <motion.div
