@@ -610,9 +610,7 @@ export default function Home() {
                   documents with unmatched precision and reliability. Over
                   decades of experience has made us a trusted provider in the
                   document industry, offering fast, accurate, and professional
-                  solutions for clients worldwide. • Travel Documents • Travel
-                  Authorization • Driving Records • Documents for Verification
-                  (KYC, VideoIDdent etc..)
+                  solutions for clients worldwide.
                 </p>
                 <div className="space-y-4 pt-4">
                   <motion.div
@@ -639,7 +637,16 @@ export default function Home() {
                   >
                     <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
                     <p className="text-zinc-800 font-medium text-lg">
-                      SSD Solutions
+                      Driving Records
+                    </p>
+                  </motion.div>
+                  <motion.div
+                    className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                    whileHover={{ x: 5 }}
+                  >
+                    <div className="w-3 h-3 rounded-full bg-teal-600 flex-shrink-0"></div>
+                    <p className="text-zinc-800 font-medium text-lg">
+                      Documents for Verification (KYC, VideoIDdent etc..)
                     </p>
                   </motion.div>
                 </div>
