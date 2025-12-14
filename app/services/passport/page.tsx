@@ -420,26 +420,6 @@ export default function PassportPage() {
         </Card>
       </motion.section>
 
-      {/* Privacy & Discretion Section */}
-      <motion.section
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, margin: "-100px" }}
-        variants={staggerContainer}
-        className="space-y-6"
-      >
-        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
-          Privacy & Discretion
-        </motion.h2>
-        <Card>
-          <CardContent className="pt-6">
-            <p className="text-lg text-zinc-700 leading-relaxed">
-              Client confidentiality is treated as a priority. All information is handled privately and used strictly within the scope of the service. Our internal process limits access and ensures controlled handling at every stage.
-            </p>
-          </CardContent>
-        </Card>
-      </motion.section>
-
       {/* Eligibility Section */}
       <motion.section
         initial="initial"
