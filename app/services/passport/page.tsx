@@ -256,18 +256,185 @@ export default function PassportPage() {
         whileInView="animate"
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
-        className="space-y-6"
+        className="space-y-8"
       >
         <Card>
+          <CardContent className="pt-6 space-y-6">
+            <div>
+              <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
+                Professional Passport Services – Secure, Sophisticated, Trusted
+              </h2>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Top Docs provides professionally crafted passport documents designed with a strong emphasis on precision, structure, and advanced security presentation. Each document is produced to reflect the complexity and refinement expected of modern international passports.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Our process focuses on accuracy, consistency, and visual integrity. Every passport is carefully prepared to ensure a clean, balanced layout and a professional finish, delivering a result that meets high expectations for quality and sophistication.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed">
+                Discretion and attention to detail remain central throughout the entire process.
+              </p>
+            </div>
+
+            <div className="border-t border-zinc-200 pt-6">
+              <h3 className="text-xl font-semibold text-zinc-900 mb-4">
+                Advanced Security & Document Features
+              </h3>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Our passports incorporate multiple layers of document security design commonly associated with official travel documents worldwide. These elements contribute to a refined, credible, and well-structured appearance.
+              </p>
+              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+                Key features include:
+              </p>
+              <ul className="list-disc space-y-3 pl-6 text-zinc-700">
+                <li>
+                  <strong>Machine-Readable Zone (MRZ)</strong>
+                  <br />
+                  <span className="text-base">Structured formatting consistent with international passport layouts</span>
+                </li>
+                <li>
+                  <strong>Security Printing Elements</strong>
+                  <br />
+                  <span className="text-base">Fine-line patterns, background designs, and layered printing techniques</span>
+                </li>
+                <li>
+                  <strong>Micro-Detail Text & Graphic Elements</strong>
+                  <br />
+                  <span className="text-base">Precision details integrated into the document design for enhanced complexity</span>
+                </li>
+                <li>
+                  <strong>Photograph Integration</strong>
+                  <br />
+                  <span className="text-base">Clean image placement aligned with the document&apos;s overall structure</span>
+                </li>
+                <li>
+                  <strong>Advanced Overlay & Background Design</strong>
+                  <br />
+                  <span className="text-base">Multi-layer visual composition to add depth and sophistication</span>
+                </li>
+                <li>
+                  <strong>Professional Numbering & Data Formatting</strong>
+                  <br />
+                  <span className="text-base">Consistent alignment and spacing across all personal data fields</span>
+                </li>
+              </ul>
+              <p className="text-lg text-zinc-700 leading-relaxed mt-4">
+                Together, these elements create a document that reflects modern passport design standards and a high level of production quality.
+              </p>
+            </div>
+
+            <div className="border-t border-zinc-200 pt-6">
+              <h3 className="text-xl font-semibold text-zinc-900 mb-4">
+                Confidentiality & Handling
+              </h3>
+              <p className="text-lg text-zinc-700 leading-relaxed">
+                All information is treated with discretion and care. Our internal process prioritizes controlled handling, privacy, and consistency from start to completion.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      </motion.section>
+
+      {/* How the Process Works Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+        className="space-y-6"
+      >
+        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
+          How the Process Works
+        </motion.h2>
+        <Card>
           <CardContent className="pt-6">
-            <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-              Professional Passport Services - Simple and Convenient
-            </h2>
-            <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              Planning an international trip and need a passport? Or perhaps you need to renew your existing passport? Top Docs provides comprehensive guidance for all your passport needs, helping you understand requirements, navigate the application process, and ensure your documentation is complete and compliant.
+            <p className="text-lg text-zinc-700 leading-relaxed mb-6">
+              Our process is designed to be simple, discreet, and efficient. Everything is handled professionally from start to finish, ensuring accuracy and consistency at every stage.
             </p>
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-xl font-semibold text-zinc-900 mb-2">
+                  Step 1 – Select Your Country
+                </h3>
+                <p className="text-zinc-700 leading-relaxed">
+                  Choose the country and document option that matches your requirements.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-zinc-900 mb-2">
+                  Step 2 – Submit Required Details
+                </h3>
+                <p className="text-zinc-700 leading-relaxed">
+                  Provide the necessary personal information securely. Our team reviews all details carefully to ensure proper structure and alignment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-zinc-900 mb-2">
+                  Step 3 – Production & Quality Review
+                </h3>
+                <p className="text-zinc-700 leading-relaxed">
+                  Each document goes through a controlled preparation process with multiple checks to ensure precision, layout accuracy, and overall quality.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-zinc-900 mb-2">
+                  Step 4 – Completion
+                </h3>
+                <p className="text-zinc-700 leading-relaxed">
+                  Once finalized, the document is prepared according to the selected option and completion timeline.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </motion.section>
+
+      {/* Quality Control & Security Standards Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+        className="space-y-6"
+      >
+        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
+          Quality Control & Security Standards
+        </motion.h2>
+        <Card>
+          <CardContent className="pt-6">
+            <p className="text-lg text-zinc-700 leading-relaxed mb-6">
+              Every document is handled with a focus on accuracy, structure, and professional presentation. We follow a controlled workflow to ensure each passport reflects modern design and security expectations.
+            </p>
+            <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+              Key focus areas include:
+            </p>
+            <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
+              <li>Consistent data formatting and alignment</li>
+              <li>Advanced document layout and background design</li>
+              <li>Integration of multiple security-oriented design elements</li>
+              <li>Careful review before final completion</li>
+            </ul>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              Our expert team guides you through every step of the passport process, from understanding eligibility requirements to submitting your application. We help you prepare all necessary documentation, schedule appointments when needed, and track your application status throughout the process.
+              This approach ensures a refined and sophisticated result.
+            </p>
+          </CardContent>
+        </Card>
+      </motion.section>
+
+      {/* Privacy & Discretion Section */}
+      <motion.section
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+        className="space-y-6"
+      >
+        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
+          Privacy & Discretion
+        </motion.h2>
+        <Card>
+          <CardContent className="pt-6">
+            <p className="text-lg text-zinc-700 leading-relaxed">
+              Client confidentiality is treated as a priority. All information is handled privately and used strictly within the scope of the service. Our internal process limits access and ensures controlled handling at every stage.
             </p>
           </CardContent>
         </Card>
@@ -308,66 +475,6 @@ export default function PassportPage() {
             </ul>
           </CardContent>
         </Card>
-      </motion.section>
-
-      {/* Documentation Section */}
-      <motion.section
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, margin: "-100px" }}
-        variants={staggerContainer}
-        className="space-y-6"
-      >
-        <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold">
-          Gather the Necessary Documentation
-        </motion.h2>
-        <div className="grid gap-6 md:grid-cols-2">
-          <motion.div variants={fadeInUp}>
-            <Card className="h-full">
-              <CardHeader>
-                <CardTitle>New Passport Application</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-zinc-700 mb-4">
-                  Before you can buy a passport online, you&apos;ll need to gather 
-                  some documentation. For a new passport, you&apos;ll need:
-                </p>
-                <ul className="list-disc space-y-2 pl-6 text-zinc-700">
-                  <li>A completed and signed passport application form</li>
-                  <li>
-                    Proof of citizenship, such as a birth certificate or 
-                    naturalization certificate
-                  </li>
-                  <li>Identification, such as a driver&apos;s license or state ID</li>
-                  <li>Two passport photos</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </motion.div>
-          <motion.div variants={fadeInUp}>
-            <Card className="h-full">
-              <CardHeader>
-                <CardTitle>Passport Renewal</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-zinc-700 mb-4">
-                  If you are renewing your passport, you&apos;ll need:
-                </p>
-                <ul className="list-disc space-y-2 pl-6 text-zinc-700">
-                  <li>Your current passport</li>
-                  <li>A completed and signed passport renewal form</li>
-                  <li>Two passport photos</li>
-                </ul>
-                <p className="text-zinc-700 mt-4">
-                  It&apos;s important to make sure that all of your documentation is 
-                  in order before you begin the online application process. Gather 
-                  everything you need and double-check that it is all correct and 
-                  up-to-date. This will save you time and hassle in the long run.
-                </p>
-              </CardContent>
-            </Card>
-          </motion.div>
-        </div>
       </motion.section>
 
       {/* Service Provider Section */}
