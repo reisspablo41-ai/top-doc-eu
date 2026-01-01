@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Top Docs - Trusted Identity & Permit Services",
+  title: "Topo Docs Wu - Trusted Identity & Permit Services",
   description: "Professional guidance for official passports, driver's licenses, ID cards, and residence permits. Fast, secure, and reliable document services since 1995.",
   icons: {
     icon: "/images/logo.png",

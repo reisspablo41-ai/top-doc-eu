@@ -29,7 +29,7 @@ export default function Page() {
         className="text-center space-y-4"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-          About Top Docs
+          About Topo Docs Wu
         </h1>
         <p className="text-lg md:text-xl text-zinc-800">
           Your trusted partner for professional identity and permit documentation services since 1995
@@ -49,14 +49,14 @@ export default function Page() {
           <Card>
             <CardContent className="pt-6">
               <p className="text-lg leading-relaxed text-zinc-900">
-                At Top Docs, our mission is to serve you and bring out the right solution at every time. 
-                We are committed to providing exceptional consulting services that simplify complex documentation 
-                processes. With over three decades of experience, we have built a reputation for excellence, 
+                At Topo Docs Wu, our mission is to serve you and bring out the right solution at every time.
+                We are committed to providing exceptional consulting services that simplify complex documentation
+                processes. With over three decades of experience, we have built a reputation for excellence,
                 reliability, and unwavering dedication to our clients' success.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-zinc-700">
-                We understand that navigating official documentation requirements can be overwhelming. That's 
-                why we've made it our purpose to deliver clear, accurate guidance and high-quality services that 
+                We understand that navigating official documentation requirements can be overwhelming. That's
+                why we've made it our purpose to deliver clear, accurate guidance and high-quality services that
                 help you achieve your goals efficiently and confidently.
               </p>
             </CardContent>
@@ -75,8 +75,8 @@ export default function Page() {
         <motion.div variants={fadeInUp}>
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">Our Services & Specialization</h2>
           <p className="text-lg text-zinc-800">
-            We provide diverse solutions in document production, ranging from passports, driver's licenses, 
-            ID cards, residence permits, certificates, and more. Our expertise spans multiple jurisdictions 
+            We provide diverse solutions in document production, ranging from passports, driver's licenses,
+            ID cards, residence permits, certificates, and more. Our expertise spans multiple jurisdictions
             and document types.
           </p>
         </motion.div>
@@ -141,7 +141,7 @@ export default function Page() {
                   <span>Expert Consultants</span>
                   <span className="font-semibold text-teal-600">868+</span>
                 </div>
-        </div>
+              </div>
             </CardContent>
           </Card>
 
@@ -174,7 +174,7 @@ export default function Page() {
         className="space-y-8"
       >
         <motion.div variants={fadeInUp}>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6">Why Choose Top Docs</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-6">Why Choose Topo Docs Wu</h2>
         </motion.div>
 
         <motion.div variants={fadeInUp} className="grid gap-6 md:grid-cols-2">
@@ -247,14 +247,14 @@ export default function Page() {
           <Card>
             <CardContent className="pt-6">
               <p className="text-lg leading-relaxed text-zinc-700">
-                Our long-term service commitment means we're here for you not just today, but for all your 
-                future documentation needs. We've built our reputation on consistency, reliability, and 
+                Our long-term service commitment means we're here for you not just today, but for all your
+                future documentation needs. We've built our reputation on consistency, reliability, and
                 continuous improvement.
               </p>
               <p className="text-lg leading-relaxed text-zinc-900">
-                Serving you in the best possible way is our topmost priority. We've invested in building 
-                experience that translates into high success rates for our clients. Every interaction, 
-                every document, and every service delivery is an opportunity to demonstrate our commitment 
+                Serving you in the best possible way is our topmost priority. We've invested in building
+                experience that translates into high success rates for our clients. Every interaction,
+                every document, and every service delivery is an opportunity to demonstrate our commitment
                 to excellence.
               </p>
             </CardContent>
@@ -274,8 +274,8 @@ export default function Page() {
           Ready to Get Started?
         </h2>
         <p className="text-lg text-zinc-900">
-          Experience the difference that three decades of expertise can make. Contact us today for a 
-          free consultation and discover how we can help you achieve your documentation goals with 
+          Experience the difference that three decades of expertise can make. Contact us today for a
+          free consultation and discover how we can help you achieve your documentation goals with
           confidence and ease.
         </p>
         <div className="flex flex-wrap justify-center gap-4">

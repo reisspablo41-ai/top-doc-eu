@@ -143,8 +143,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Your #1 Source for Real & Fake Documents — Fast, Secure, and
-            Discreet
+            Premier Document Solutions for Global Citizens — Secure, Reliable, and Confidential
           </motion.p>
 
           {/* Main Headline */}
@@ -154,9 +153,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="text-teal-600">Excellent Consulting</span>
+            <span className="text-teal-600">Simplify Your</span>
             <br />
-            Services for You
+            International Mobility
           </motion.h1>
 
           {/* CTA Button */}
@@ -193,10 +192,9 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
-              We produce real database-registered documents and premium replica
-              versions depending on your needs. No interviews, no long
-              processes, just reliable documents delivered quickly and
-              confidentially.
+              We specialize in navigating complex bureaucratic landscapes to provide you with essential documentation.
+              Our streamlined approach ensures accuracy, security, and prompt delivery for all your needs,
+              bypassing unnecessary delays.
             </p>
           </motion.div>
           <motion.div
@@ -699,13 +697,11 @@ export default function Home() {
         <div className="mx-auto max-w-6xl relative z-10">
           <motion.div variants={fadeInUp} className="text-center space-y-6">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl mx-auto leading-tight">
-              Our Mission is to Serve you and bring out the right solution at
-              every time
+              Empowering Your Journey with the Right Solutions, Every Step of the Way
             </h2>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-              We are committed to providing exceptional service, ensuring every
-              client receives personalized attention and the highest quality
-              solutions for their document needs.
+              Our mission is to provide accessible, reliable, and confidential documentation services.
+              We are dedicated to simplifying complex processes, ensuring you have the support you need to move forward with confidence.
             </p>
             <motion.div
               variants={fadeInUp}
@@ -1208,62 +1204,53 @@ export default function Home() {
         </motion.section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Detailed Overview</h2>
+          <h2 className="text-2xl font-semibold">Comprehensive Service Overview</h2>
           <div className="mt-6 grid gap-6 lg:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Passports</CardTitle>
+                <CardTitle>Global Passport Assistance</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Our network handles specialized passport-style documents
-                  crafted through low-visibility channels. Each request is
-                  processed quietly, with tailored formats and discreet
-                  coordination. You receive a polished, high-detail output
-                  without unnecessary questions or delays. Everything is kept
-                  off the spotlight.
+                  We facilitate the acquisition of essential travel documents through a secure and efficient network.
+                  Our process is designed to handle complex requirements with discretion, ensuring you receive
+                  compliant travel papers without administrative hassles.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Driver’s Licenses</CardTitle>
+                <CardTitle>Driving Permit Solutions</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  We operate with access to multiple regional layout structures,
-                  delivering driver-license style documents built to mirror the
-                  look and feel of official formats. Details are handled
-                  silently, with fast turnarounds and encrypted communication.
-                  No noise, no interruptions — just the results you asked for.
+                  Navigating the requirements for international driving permits can be challenging.
+                  We provide expert guidance to obtain valid driving licenses that adhere to regional standards,
+                  ensuring your ability to drive legally and confidently across borders.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>ID Cards</CardTitle>
+                <CardTitle>Identity Verification Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  For clients who require identity-style materials, we prepare
-                  clean, high-grade card designs modeled after modern national
-                  and state standards. Each piece is assembled through low-trace
-                  methods and produced with precision. Your privacy stays intact
-                  from start to finish.
+                  In an era where identity is paramount, we offer robust solutions for obtaining national identity cards.
+                  Our services prioritize data integrity and format compliance, delivering documents that meet
+                  stringent verification standards.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Residence Permits</CardTitle>
+                <CardTitle>Residency Application Guidance</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Our permit-style documents cover several categories and
-                  formats. Whether temporary, long-term, or specialized layouts,
-                  everything is structured discreetly and delivered with exact
-                  detailing. Timelines remain quiet, controlled, and fully
-                  insulated from outside attention.
+                  Securing legal residence status requires precise documentation.
+                  We assist with the preparation and submission of residence permit applications,
+                  streamlining the path to legal stay for work, study, or family reunification.
                 </p>
               </CardContent>
             </Card>
@@ -1271,29 +1258,25 @@ export default function Home() {
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Security Practices</CardTitle>
+                <CardTitle>Data Protection Standards</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Every exchange is handled on strictly protected channels with
-                  minimal trace. We avoid unnecessary data, clear communication
-                  logs routinely, and isolate each request in its own encrypted
-                  process. Your involvement stays invisible, your information
-                  stays contained.
+                  We strictly adhere to advanced data security protocols.
+                  All client interactions and document processing are conducted through encrypted channels
+                  to ensure your personal information remains confidential and protected at all times.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Support & Availability</CardTitle>
+                <CardTitle>Client Support Excellence</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Assistance is available around the clock through secured
-                  lines. We guide you step by step — quietly, efficiently, and
-                  without interruption. Whether it’s updates, revisions, or
-                  clarifications, our team remains in the background ensuring
-                  everything moves smoothly.
+                  Our dedicated support team is available 24/7 to address your queries.
+                  We provide continuous updates and professional advice throughout your application process,
+                  ensuring a transparent and stress-free experience.
                 </p>
               </CardContent>
             </Card>

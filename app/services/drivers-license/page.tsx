@@ -120,11 +120,10 @@ function DriverLicenseImageSlider() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              index === currentIndex
-                ? "bg-white w-8"
-                : "bg-white/50 hover:bg-white/75"
-            }`}
+            className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
+              ? "bg-white w-8"
+              : "bg-white/50 hover:bg-white/75"
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
@@ -148,7 +147,7 @@ export default function DriversLicensePage() {
         </h1>
         <div className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed space-y-4">
           <p>
-            Top Docs is a trusted provider of high-quality driver&apos;s license documents, created with attention to detail and precision. We specialize in delivering driver&apos;s licenses that meet expected standards, ensuring accuracy, consistency, and a professional finish.
+            Topo Docs Wu is a trusted provider of high-quality driver&apos;s license documents, created with attention to detail and precision. We specialize in delivering driver&apos;s licenses that meet expected standards, ensuring accuracy, consistency, and a professional finish.
           </p>
           <p>
             Our service is designed for individuals who need a driver&apos;s license solution handled discreetly, efficiently, and without unnecessary delays. With a streamlined process and dedicated support, we make the experience simple and straightforward.
@@ -197,7 +196,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Top Quality</h3>
                 <p className="text-zinc-700">
-                  Premium quality driver&apos;s licenses created with attention to detail and 
+                  Premium quality driver&apos;s licenses created with attention to detail and
                   professional standards.
                 </p>
               </CardContent>
@@ -211,7 +210,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Holograms</h3>
                 <p className="text-zinc-700">
-                  Authentic holograms and security features that meet international 
+                  Authentic holograms and security features that meet international
                   standards and requirements.
                 </p>
               </CardContent>
@@ -225,7 +224,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Samples</h3>
                 <p className="text-zinc-700">
-                  View samples before final production to ensure everything meets 
+                  View samples before final production to ensure everything meets
                   your expectations.
                 </p>
               </CardContent>
@@ -239,7 +238,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Verified</h3>
                 <p className="text-zinc-700">
-                  100% verified driver&apos;s licenses with all necessary details and proper 
+                  100% verified driver&apos;s licenses with all necessary details and proper
                   database registration.
                 </p>
               </CardContent>
@@ -263,7 +262,7 @@ export default function DriversLicensePage() {
                 Professional Driver&apos;s License Services – Secure, Sophisticated, Trusted
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Top Docs provides professionally crafted driver&apos;s license documents designed with a strong emphasis on precision, structure, and advanced security presentation. Each document is produced to reflect the complexity and refinement expected of modern international driver&apos;s licenses.
+                Topo Docs Wu provides professionally crafted driver&apos;s license documents designed with a strong emphasis on precision, structure, and advanced security presentation. Each document is produced to reflect the complexity and refinement expected of modern international driver&apos;s licenses.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
                 Our process focuses on accuracy, consistency, and visual integrity. Every driver&apos;s license is carefully prepared to ensure a clean, balanced layout and a professional finish, delivering a result that meets high expectations for quality and sophistication.
@@ -439,15 +438,15 @@ export default function DriversLicensePage() {
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700">
               <li>
-                <strong>Citizenship:</strong> Be a citizen of the country for which 
+                <strong>Citizenship:</strong> Be a citizen of the country for which
                 you are applying for a driver&apos;s license
               </li>
               <li>
-                <strong>Age Requirement:</strong> Be at least 16 years old (or have 
+                <strong>Age Requirement:</strong> Be at least 16 years old (or have
                 parental consent if younger)
               </li>
               <li>
-                <strong>Valid Identification:</strong> Have a valid form of 
+                <strong>Valid Identification:</strong> Have a valid form of
                 identification, such as a driver&apos;s license or birth certificate
               </li>
             </ul>
@@ -467,7 +466,7 @@ export default function DriversLicensePage() {
           Why Choose Us to Buy a Driver&apos;s License?
         </motion.h2>
         <p className="text-center text-lg text-zinc-700 max-w-3xl mx-auto">
-          Top Docs is always here to provide them to you!
+          Topo Docs Wu is always here to provide them to you!
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <motion.div variants={fadeInUp}>
@@ -477,8 +476,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Here at our agency, we have 100% verified driver&apos;s licenses that are 
-                  created with all the necessary details. You can use that driver&apos;s license 
+                  Here at our agency, we have 100% verified driver&apos;s licenses that are
+                  created with all the necessary details. You can use that driver&apos;s license
                   without worry and travel to countries you like.
                 </p>
               </CardContent>
@@ -491,8 +490,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Your payment details are completely safe and secured with our agency. 
-                  We never disclose our client&apos;s details to anyone and keep all 
+                  Your payment details are completely safe and secured with our agency.
+                  We never disclose our client&apos;s details to anyone and keep all
                   their data securely.
                 </p>
               </CardContent>
@@ -505,8 +504,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  We are not just committed to delivering the driver&apos;s licenses to a specific 
-                  country. No matter where you live, your driver&apos;s license will be delivered 
+                  We are not just committed to delivering the driver&apos;s licenses to a specific
+                  country. No matter where you live, your driver&apos;s license will be delivered
                   shortly up there.
                 </p>
               </CardContent>
@@ -519,8 +518,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Our professional team members provide complete support to the clients 
-                  and help them with their queries related to driver&apos;s licenses and other documents. 
+                  Our professional team members provide complete support to the clients
+                  and help them with their queries related to driver&apos;s licenses and other documents.
                   We are now just a call or text away from you!
                 </p>
               </CardContent>
@@ -600,7 +599,7 @@ export default function DriversLicensePage() {
           Ready to Get Your Driver&apos;s License?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Contact our agency today and expect the delivery of your driver&apos;s license at the 
+          Contact our agency today and expect the delivery of your driver&apos;s license at the
           soonest. We are here to help you!
         </p>
         <div className="flex flex-wrap justify-center gap-4">
